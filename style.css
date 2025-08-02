@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: black;
-  color: whitesmoke;
+  background-color: #0F0B07;
+    color: whitesmoke;
   overflow-x: hidden;
 }
 
@@ -31,7 +31,7 @@ body {
 /* animating header from right side  */
 .headh1 {
   font-size: 4.2rem;
-  color: #D4AF37;
+  color: #e8d5a9;
   letter-spacing: 0.8px;
   text-align: center;
   margin: 4px;
@@ -63,7 +63,7 @@ from{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  animation: headlinebanner 18s linear infinite;
+  animation: headlinebanner 11s linear infinite;
 
 }
 
