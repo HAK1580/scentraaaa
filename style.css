@@ -30,10 +30,12 @@ body {
 
 /* animating header from right side  */
 .headh1 {
-  font-size: 3.86rem;
-  color: #d4af37;
+  font-size: 4.2rem;
+  color: #D4AF37;
+  letter-spacing: 0.8px;
   text-align: center;
   margin: 4px;
+  font-weight: 100;
   font-family: 'Playfair Display', serif;
   animation: headh1animate 2s ease-in-out;
 }
