@@ -13,6 +13,7 @@ body {
 .head {
  overflow: hidden;
  animation: animateheaderdiv 2s ease-in  ;
+ /* border: 2px solid red ; */
 
 }
 
@@ -77,7 +78,7 @@ from{
 /* banner done here now style the button */
 
 .btnh1 {
-  padding: 16px 55px;
+  padding: 16px 62px;
   background-color: rgba(0, 0, 0, 0.815);
   display: flex;
   justify-content: center;
@@ -92,8 +93,8 @@ from{
   cursor: pointer;
   transition: all 0.5s ease-out;
   position: absolute;
-  bottom: 21.5vh;
-  left: 6vw;
+  bottom: 26.5vh;
+  left:40%;
   z-index: 1;
 
 }
