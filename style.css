@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+
+.head {
+ overflow: hidden;
+ animation: animateheaderdiv 4s ease-in  ;
+
+}
+
+/* animation of header tag  */
+@keyframes animateheaderdiv {
+  from{
+    transform: translateX(-97%);
+  }
+  to{
+    transform: translateX(0);
+  }
+  
+}
+
+/* animating header from right side  */
+.headh1 {
+  font-size: 3.86rem;
+  color: #d4af37;
+  text-align: center;
+  margin: 4px;
+  font-family: 'Playfair Display', serif;
+  animation: headh1animate 4s ease-in-out;
+}
+@keyframes headh1animate {
+from{
+  transform: translateX(100%);
+}
+  to{
+    transform: translateX(0%);
+  }
+}
+
+
+/* design the button and complete the hero portion of it.ALSO MAKE SURE ADD THE HEADER ON VERY TOP OF IT   */
+.headline {
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-top: 6px;
+  white-space: nowrap;
+  position: relative;
+  top: 10px;
+  left: 0;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  animation: headlinebanner 18s linear infinite;
+
+}
+
+@keyframes headlinebanner {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* banner done here now style the button */
+
+.btnh1 {
+  padding: 16px 55px;
+  background-color: rgba(0, 0, 0, 0.815);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.797);
+  border: 1px solid #d4af3767;
+  font-size: 1.69rem;
+  /* font-weight: 600 ; */
+  letter-spacing: 1.1px;
+  border-radius: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  position: absolute;
+  bottom: 21.5vh;
+  left: 6vw;
+  z-index: 1;
+
+}
+
+.btnh1:hover {
+  background-color: #d4af37a7;
+  /* hover state */
+  color: #000000;
+
+}
+/* img sliding option  */
+
+.imgbox{
+  margin: auto;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+
+}
+.firstimgbtn{
+  position: absolute;
+  top: 3.7rem;
+  right: 12rem;
+  padding: 23px 77px;
+  border-radius: 47px;
+  border: 1px solid rgba(255, 255, 255, 0.556);
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 21px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.firstimgbtn:hover{
+  color: rgba(255, 255, 255, 0.586);
+}
+
+.imgslide{
+ /* height: 99vh;
+ width: 89vw */
+ width: 100%;
+ height: 100%;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.firstimg{
+  opacity: 1;
+  z-index: 1;
+}
