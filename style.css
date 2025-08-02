@@ -12,7 +12,7 @@ body {
 
 .head {
  overflow: hidden;
- animation: animateheaderdiv 4s ease-in  ;
+ animation: animateheaderdiv 2s ease-in  ;
 
 }
 
@@ -34,7 +34,7 @@ body {
   text-align: center;
   margin: 4px;
   font-family: 'Playfair Display', serif;
-  animation: headh1animate 4s ease-in-out;
+  animation: headh1animate 2s ease-in-out;
 }
 @keyframes headh1animate {
 from{
