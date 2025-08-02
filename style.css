@@ -149,3 +149,11 @@ from{
   opacity: 1;
   z-index: 1;
 }
+.tall-slide {
+  height: 120vh !important; /* Make this taller */
+}
+
+.tall-slide img {
+  height:73%;
+  object-fit: cover;
+}
