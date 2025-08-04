@@ -12,7 +12,7 @@ body {
 
 .head {
  overflow: hidden;
- /* animation: animateheaderdiv 2s ease-in  ; */
+ animation: animateheaderdiv 2s ease-in  ;
  /* border: 2px solid red ; */
 
 }
@@ -88,7 +88,6 @@ from{
   color: rgba(255, 255, 255, 0.797);
   border: 1px solid #d4af3767;
   font-size: 1.69rem;
-  /* font-weight: 600 ; */
   letter-spacing: 1.1px;
   border-radius: 13px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -103,11 +102,9 @@ from{
 
 .btnh1:hover {
   background-color: #d4af37a7;
-  /* hover state */
   color: #000000;
 
 }
-/* img sliding option  */
 
 .imgbox{
   margin: auto;
