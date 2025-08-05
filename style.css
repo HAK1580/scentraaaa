@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   animation: animateheaderdiv 2s ease-in;
   /* border: 2px solid red ; */
-  margin: 6px auto;
+  margin: 25px auto;
 
 }
 
@@ -50,9 +50,9 @@ body {
 }
 .logo-head img{
   position: absolute;
-  top:-4px;
+  top:-26px;
   bottom: 100px;
-  left: -4px;
+  left: -62px;
   z-index: 10;
 }
 
@@ -71,7 +71,7 @@ body {
 .headline {
   font-size: 1.35rem;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   /* border: 2px solid red ; */
   background-color: rgba(221, 179, 52, 0.86);
   color: #000000;
