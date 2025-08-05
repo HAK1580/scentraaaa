@@ -14,6 +14,7 @@ body {
   overflow: hidden;
   animation: animateheaderdiv 2s ease-in;
   /* border: 2px solid red ; */
+  margin: -9px auto;
 
 }
 
@@ -31,14 +32,14 @@ body {
 
 /* animating header from right side  */
 .headh1 {
- font-size: 4.62rem;
-    color: #e8d5a9;
-    letter-spacing: 0.8px;
-    text-align: center;
-    margin: 10px auto;
-    font-weight: 100;
-    font-family: 'Playfair Display', serif;
-    animation: headh1animate 2s ease-in-out;
+  font-size: 4.62rem;
+  color: #e8d5a9;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 100;
+  font-family: 'Playfair Display', serif;
+  animation: headh1animate 2s ease-in-out;
 }
 
 @keyframes headh1animate {
@@ -167,6 +168,7 @@ body {
   height: 73%;
   object-fit: cover;
 }
-.btn-discount{
+
+.btn-discount {
   padding: 25px 29px;
 }
