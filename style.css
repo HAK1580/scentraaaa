@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   animation: animateheaderdiv 2s ease-in;
   /* border: 2px solid red ; */
-  margin: -9px auto;
+  margin: 6px auto;
 
 }
 
@@ -40,6 +40,20 @@ body {
   font-weight: 100;
   font-family: 'Playfair Display', serif;
   animation: headh1animate 2s ease-in-out;
+  /* border: 2px solid red ; */
+  /* position: relative; */
+}
+.logo-head{
+  /* border: 2px solid red; */
+  position: relative;
+  margin: -6px auto;
+}
+.logo-head img{
+  position: absolute;
+  top:-4px;
+  bottom: 100px;
+  left: -4px;
+  z-index: 10;
 }
 
 @keyframes headh1animate {
@@ -58,17 +72,21 @@ body {
   font-size: 1.35rem;
   text-transform: uppercase;
   margin-bottom: 16px;
-
-  margin-top: 6px;
+  /* border: 2px solid red ; */
+  background-color: rgba(221, 179, 52, 0.86);
+  color: #000000;
   white-space: nowrap;
   position: relative;
-  top: 10px;
+  top: 0px;
   left: 0;
-  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  
+}
+.headlinetxt{
   animation: headlinebanner 11s linear infinite;
+  /* border:2px solid red  */
 
 }
 
