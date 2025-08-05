@@ -6,43 +6,47 @@
 
 body {
   background-color: #0F0B07;
-    color: whitesmoke;
+  color: whitesmoke;
   overflow-x: hidden;
 }
 
 .head {
- overflow: hidden;
- /* border: 2px solid red ; */
- 
+  overflow: hidden;
+  animation: animateheaderdiv 2s ease-in;
+  /* border: 2px solid red ; */
+
 }
 
 /* animation of header tag  */
 @keyframes animateheaderdiv {
-  from{
+  from {
     transform: translateX(-97%);
   }
-  to{
+
+  to {
     transform: translateX(0);
   }
-  
+
 }
 
 /* animating header from right side  */
 .headh1 {
-  font-size: 4.5rem;
-  color: #e8d5a9;
-  letter-spacing: 0.8px;
-  text-align: center;
-  margin: 0px;
-  font-weight: 100;
-  font-family: 'Playfair Display', serif;
-  animation: headh1animate 2s ease-in-out;
+ font-size: 4.62rem;
+    color: #e8d5a9;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+    animation: headh1animate 2s ease-in-out;
 }
+
 @keyframes headh1animate {
-from{
-  transform: translateX(100%);
-}
-  to{
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
     transform: translateX(0%);
   }
 }
@@ -50,9 +54,10 @@ from{
 
 /* design the button and complete the hero portion of it.ALSO MAKE SURE ADD THE HEADER ON VERY TOP OF IT   */
 .headline {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   text-transform: uppercase;
   margin-bottom: 16px;
+
   margin-top: 6px;
   white-space: nowrap;
   position: relative;
@@ -93,24 +98,75 @@ from{
   cursor: pointer;
   position: absolute;
   bottom: 23.5vh;
-  left:5%;
+  left: 5%;
   z-index: 1;
-  
   transition: all 0.5s ease-out;
+
 }
 
 .btnh1:hover {
   background-color: #d4af37a7;
+  /* hover state */
   color: #000000;
 
 }
 
-.imgbox{
-  margin: -20px auto;
+/* img sliding option  */
+
+.imgbox {
+  margin: auto;
+  /* border: 2px solid red; */
   position: relative;
+  display: flex;
 
 }
-.imgslide{
-  /* border: 2px solid red; */
-  animation: animateheaderdiv 2s ease-in ;
+
+.firstimgbtn {
+  position: absolute;
+  top: 3.1rem;
+  right: 5rem;
+  padding: 23px 76px;
+  border-radius: 55px;
+  border: 1px solid rgba(255, 255, 255, 0.556);
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.firstimgbtn:hover {
+  color: rgba(255, 255, 255, 0.586);
+}
+
+.imgslide {
+  object-fit: cover;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.firstimg {
+  opacity: 1;
+  z-index: 1;
+}
+
+.tall-slide {
+  height: 120vh !important;
+  /* Make this taller */
+}
+
+.tall-slide img {
+  height: 73%;
+  object-fit: cover;
+}
+.btn-discount{
+  padding: 25px 29px;
 }
