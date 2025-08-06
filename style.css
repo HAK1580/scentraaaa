@@ -12,7 +12,7 @@ body {
 
 nav {
   /* border: 2px solid red; */
-  animation: headh1animate 2s ease-in-out;
+  /* animation: headh1animate 2s ease-in-out; */
   position: relative;
 
 
@@ -73,7 +73,8 @@ nav ul {
   top: -1rem;
 
 }
-.search-icon:hover{
+
+.search-icon:hover {
   cursor: pointer;
 }
 
@@ -85,7 +86,7 @@ nav ul {
 
 .head {
   overflow: hidden;
-  animation: animateheaderdiv 2s ease-in;
+  /* animation: animateheaderdiv 2s ease-in; */
   /* border: 2px solid red ; */
   margin: 25px auto;
 
@@ -245,6 +246,7 @@ nav ul {
 .tall-slide {
   height: 120vh !important;
   /* Make this taller */
+
 }
 
 .tall-slide img {
@@ -254,4 +256,51 @@ nav ul {
 
 .btn-discount {
   padding: 25px 29px;
+}
+
+/* SEARCH BOX MAKING */
+.search-box-div {
+  /* border: 2px solid  ; */
+  display: flex;
+  justify-content: center;
+  margin: -2rem auto;
+  height: 110vh;
+  background-color: rgba(91, 91, 91, 0.482)
+}
+
+.search-here {
+  padding: 0.75rem 2px 0.75rem 1rem;
+  width: 90%;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.search-here::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.search-box {
+  /* border: 2px solid red; */
+  width: 65%;
+  margin: 4rem auto;
+  position: relative
+}
+
+.cross {
+  position: absolute;
+  /* border: 2px solid red ; */
+  right: 2.5rem;
+}
+
+/* animations fix  */
+
+nav.animate-once {
+  animation: headh1animate 2s ease-in-out;
+}
+
+.head.animate-once {
+  animation: animateheaderdiv 2s ease-in;
 }
