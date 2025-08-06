@@ -10,6 +10,79 @@ body {
   overflow-x: hidden;
 }
 
+nav {
+  /* border: 2px solid red; */
+  animation: headh1animate 2s ease-in-out;
+  position: relative;
+
+
+
+}
+
+nav ul li a {
+
+  position: relative;
+  display: inline-block;
+  text-decoration-line: none;
+  color: white;
+  font-size: 1.24rem;
+  letter-spacing: 0.1em;
+  padding-bottom: 4px;
+
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  transition: width 0.32s ease-in-out;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.nav-left {
+  /* border: 2px solid ; */
+  position: relative;
+  margin-left: 1.31rem;
+  left: 25vh;
+}
+
+.nav-right {
+  margin-right: 1.31rem;
+  position: relative;
+  right: 25vh;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 3rem;
+  top: -1rem;
+
+}
+.search-icon:hover{
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  left: -77px
+}
+
+
 .head {
   overflow: hidden;
   animation: animateheaderdiv 2s ease-in;
@@ -43,18 +116,6 @@ body {
   /* border: 2px solid red ; */
   /* position: relative; */
 }
-.logo-head{
-  /* border: 2px solid red; */
-  position: relative;
-  margin: -6px auto;
-}
-.logo-head img{
-  position: absolute;
-  top:-26px;
-  bottom: 100px;
-  left: -62px;
-  z-index: 10;
-}
 
 @keyframes headh1animate {
   from {
@@ -69,22 +130,26 @@ body {
 
 /* design the button and complete the hero portion of it.ALSO MAKE SURE ADD THE HEADER ON VERY TOP OF IT   */
 .headline {
-  font-size: 1.35rem;
+  font-size: 1.32em;
   text-transform: uppercase;
   margin-bottom: 32px;
   /* border: 2px solid red ; */
+  font-weight: 600;
+  font-family: 'popins', sans-serif;
   background-color: rgba(221, 179, 52, 0.86);
   color: #000000;
   white-space: nowrap;
   position: relative;
   top: 0px;
+
   left: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  
+
 }
-.headlinetxt{
+
+.headlinetxt {
   animation: headlinebanner 11s linear infinite;
   /* border:2px solid red  */
 
