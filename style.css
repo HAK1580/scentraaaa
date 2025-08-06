@@ -131,10 +131,11 @@ nav ul {
 
 /* design the button and complete the hero portion of it.ALSO MAKE SURE ADD THE HEADER ON VERY TOP OF IT   */
 .headline {
-  font-size: 1.32em;
+  font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 32px;
   /* border: 2px solid red ; */
+  padding: 4.3px 0px  ;
   font-weight: 600;
   font-family: 'popins', sans-serif;
   background-color: rgba(221, 179, 52, 0.86);
