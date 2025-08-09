@@ -305,3 +305,8 @@ nav.animate-once {
 .head.animate-once {
   animation: animateheaderdiv 2s ease-in;
 }
+.rosemerta{
+  bottom: 32vh;
+  left: 3%;
+ 
+}
