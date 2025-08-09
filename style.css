@@ -416,7 +416,7 @@ nav.animate-once {
   /* border: 2px solid red ; */
   display: inline-flex;
   gap: 10rem;
-  animation: headline2 10s linear infinite;
+  animation: headline2 12s linear infinite;
 
 }
 .headline-2 h3{
