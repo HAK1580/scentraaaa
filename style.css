@@ -87,7 +87,7 @@ nav ul {
 .head {
   overflow: hidden;
   /* animation: animateheaderdiv 2s ease-in; */
-  /* border: 2px solid red ; */
+
   margin: 20px auto;
 
 }
@@ -131,11 +131,11 @@ nav ul {
 
 /* design the button and complete the hero portion of it.ALSO MAKE SURE ADD THE HEADER ON VERY TOP OF IT   */
 .headline {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   text-transform: uppercase;
   margin-bottom: 32px;
   /* border: 2px solid red ; */
-  padding: 4.3px 0px  ;
+  padding: 3.2px 0px  ;
   font-weight: 600;
   font-family: 'popins', sans-serif;
   background-color: rgba(221, 179, 52, 0.86);
@@ -309,4 +309,7 @@ nav.animate-once {
   bottom: 32vh;
   left: 3%;
  
+}
+.head{
+  /* border: 2px solid red ; */
 }

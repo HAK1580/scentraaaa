@@ -23,7 +23,7 @@ function showNextImage() {
   setTimeout(showNextImage, delay);
 }
 
-setTimeout(showNextImage, 1000);
+setTimeout(showNextImage, 10000);
 
 // ANIMATION CONTROL
 let hasAnimated = false;
