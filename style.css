@@ -80,16 +80,17 @@ nav ul {
 
 .logo {
   position: absolute;
-  left: -77px
+  left: -77px;
+  top: 4%;
 }
 
 
 .head {
   overflow: hidden;
   /* animation: animateheaderdiv 2s ease-in; */
-
+  
   margin: 20px auto;
-
+  
 }
 
 /* animation of header tag  */
@@ -101,7 +102,7 @@ nav ul {
   to {
     transform: translateX(0);
   }
-
+  
 }
 
 /* animating header from right side  */
@@ -204,7 +205,7 @@ nav ul {
   /* border: 2px solid red; */
   position: relative;
   display: flex;
-
+  
 }
 
 .firstimgbtn {
@@ -308,20 +309,20 @@ nav.animate-once {
 .rosemerta{
   bottom: 32vh;
   left: 3%;
- 
+  
 }
 
  /* lets  make the next category PRODUCT COLLECTION */
-
+ 
  .product-collection{
   /* border: 2px solid white; */
   margin: 10rem auto;
  }
  .product-collection h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Playfair Display", serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Playfair Display", serif;
   font-weight:500;
   color: #e8d5a9;
   font-size: 3.4rem;
@@ -342,21 +343,21 @@ nav.animate-once {
  }
  .product-collection-item{
   overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
  }
  .product-collection-item img{
-  width: 22vw;;
-  height: 80%;
-  border: 1px solid #d4af3723;
+   width: 22vw;;
+   height: 80%;
+   border: 1px solid #d4af3723;
   border-radius: 10px;
   cursor: pointer;
-    transform-origin: center center;
+  transform-origin: center center;
   transition: transform 350ms cubic-bezier(.2,.8,.2,1), 
               filter 350ms cubic-bezier(.2,.8,.2,1);
-  will-change: transform;
-  backface-visibility: hidden;   /* small GPU hint */
-  transform: translateZ(0);
-}
+              will-change: transform;
+              backface-visibility: hidden;   /* small GPU hint */
+              transform: translateZ(0);
+            }
 .product-btn-div{
   display: flex;
   justify-content: center;
@@ -401,4 +402,22 @@ nav.animate-once {
     transform: scale(1.08);        /* tweak 1.03 - 1.12 to taste */
     filter: brightness(1.02);      /* tiny pop — optional */
     transition: all 0.8s ease-in-out;
+}
+/* SECOND HEADLINE MAKING HERE  */
+.headline-2{
+  /* border: 1px solid  ; */
+  margin: 5rem 0px 0px 0px ;
+}
+.headlinetxt2{
+  /* border: 2px solid red ; */
+  display: flex;
+  gap: 5rem;
+  animation: headlinebanner 8s linear infinite;
+}
+.headline-2 h3{
+  font-size: 1.75rem;;
+  font-family: "poppins", sans-serif;
+  letter-spacing: 2px ;
+  font-weight: 500;
+  
 }
