@@ -407,17 +407,32 @@ nav.animate-once {
 .headline-2{
   /* border: 1px solid  ; */
   margin: 5rem 0px 0px 0px ;
+  overflow: hidden;
+  white-space: nowrap;
+
+
 }
 .headlinetxt2{
   /* border: 2px solid red ; */
-  display: flex;
-  gap: 5rem;
-  animation: headlinebanner 8s linear infinite;
+  display: inline-flex;
+  gap: 8rem;
+  animation: headline2 10s linear  infinite;
+
 }
 .headline-2 h3{
-  font-size: 2rem;;
+  font-size: 2.4rem;;
   font-family: "Playfair Display", serif;
   letter-spacing: 2px ;
   font-weight: 100;
+  
+}
+@keyframes headline2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
   
 }
