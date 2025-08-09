@@ -415,8 +415,8 @@ nav.animate-once {
 .headlinetxt2{
   /* border: 2px solid red ; */
   display: inline-flex;
-  gap: 8rem;
-  animation: headline2 10s linear  infinite;
+  gap: 10rem;
+  animation: headline2 10s linear infinite;
 
 }
 .headline-2 h3{
@@ -428,11 +428,11 @@ nav.animate-once {
 }
 @keyframes headline2 {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-50%);
   }
 
   100% {
-    transform: translateX(-50%);
+    transform: translateX(0%);
   }
   
 }
