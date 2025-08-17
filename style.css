@@ -9,7 +9,9 @@ body {
   color: whitesmoke;
   overflow-x: hidden;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 nav {
   /* border: 2px solid red; */
   /* animation: headh1animate 2s ease-in-out; */
@@ -113,7 +115,6 @@ nav ul {
   text-align: center;
   margin: 10px auto;
   font-weight: 100;
-  font-family: 'Playfair Display', serif;
   animation: headh1animate 2s ease-in-out;
   /* border: 2px solid red ; */
   /* position: relative; */
@@ -332,7 +333,6 @@ nav.animate-once {
 }
 
 .product-collection-box {
-  /* border: 2px solid red ; */
   width: 96%;
   margin: 5rem auto;
   display: flex;
@@ -451,5 +451,90 @@ nav.animate-once {
   }
 
 }
+/* BEST SELLERS CATEGORY  */
+.best-sellers{
+  /* border: 2px solid red ; */
+  margin: 14rem auto;
+}
+.best-sellers h1{
+  color: rgb(232, 213, 169);
+ font-family: 'Playfair Display', serif;
+ font-size: 3rem;
+ font-weight: 400;
+ letter-spacing: 1px;
+}
+.best-seller-box{
+  /* border: 2px solid white; */
+  width: 96.5%;
+  margin: 4rem auto;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.best-seller-items{
+  background-color: rgba(0, 0, 0, 0.122) ;
+  border: 1px solid #e8d5a92a ;
+  max-width: 22.4vw;
+}
+.best-seller-items h2{
+  font-family: "Twentieth Century", sans-serif;
+  font-weight: 500;
+  font-size: 1.75rem;
+  letter-spacing: 1.3px;
+}
+.old-price{
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1.15px;
+  text-decoration-color: #e8d5a9;
+  color: red;
+  font-size: 1.05rem;
+}
+.best-seller-imges{
+  /* border: 2px solid red ; */
+  position: relative;
+  cursor: pointer;
+}
+.sale{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6vw;
+  height:6vh;
+}
 
-/* NOW IMPROVE LITTLE THINGS AND GOOD TO Go */
+.best-seller-prices{
+ display: flex;
+ letter-spacing: 1px ;
+  /* border: 2px solid blueviolet; */
+  justify-content:flex-start;
+  gap: 1rem;
+  max-width: 16vw;
+  margin:3px auto;
+}
+.new-price{
+  font-weight: bold;
+  font-size: 1.25rem;
+ position: relative;
+ top: -1.5px;
+}
+.add-to-cart-div{
+  /* border: 2px solid red ; */
+  margin: 0.65rem 0px 0px 0px ;
+}
+.add-to-cart{
+  width: 100%;
+  border: 2px solid red;
+  padding: 0.90rem 0px ;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.797);
+  border: 1px solid #d4af3767;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.add-to-cart:hover{
+  background-color: #d4af37a7;
+  color: #000000;
+}
