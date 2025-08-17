@@ -69,5 +69,29 @@ crossicon.addEventListener("click", () => {
     isOpen = false;
   }
 
+
+});
+
+// HOVER EFFECT ON IMAGES ON CATEGORY SECTION 
+
+const front_imgbox = document.querySelectorAll(".front-img");
+const front_btn = document.querySelectorAll(".product-btn");
+
+front_imgbox.forEach((img,index) => {
+  let original_img = img.src;
+  let  hover_img = img.dataset.hover;
   
+  img.addEventListener("mouseenter", () => {
+    img.src=hover_img;
+
+  });
+  img.addEventListener("mouseleave", () => {
+    img.src=original_img;
+
+  }
+)
+front_btn[index].addEventListener("mouseenter",()=>{
+    img.src=hover_img;
+   
+});
 });
